@@ -1,0 +1,40 @@
+/*Estilo para el fondo de la página (Etiqueta)*/
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('Background/The_Watcher3F_1x1_last_shot.webp'); /* Reemplazá con tu ruta */
+    background-size: cover;
+    background-position: center;
+    filter: blur(3px) brightness(0.5); /* Difumina y oscurece */
+    z-index: -1;
+}
+/*Estilo para la barra de navegación (Clase)*/
+.custom-navbar {
+    background-color: #572181 !important;
+}
+/*Estilo para las cartas cuando se posa el mouse sobre ellas (Clase)*/
+.carta-marvel:hover {
+    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.4);
+    transition: box-shadow 0.3s ease;
+}
+/*Estilo para recuadro de valor total de cartas (ID)*/
+#totalCard {
+    background-color: #572181 !important;
+    width: 15rem;
+    z-index: 1030;
+}
+/*Estilo para texto específico (ID)*/
+#highEvolutionary {
+    color: yellow;
+}
+/*Estilo de sombra para los parrafos y títulos(etiquetas)*/
+p{
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+h5{
+    text-shadow: 3px 3px px rgba(0, 0, 0, 0.5);
+}
